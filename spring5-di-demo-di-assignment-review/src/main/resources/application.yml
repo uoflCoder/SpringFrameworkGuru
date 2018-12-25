@@ -1,0 +1,13 @@
+guru:
+  jms:
+    user: TC
+    password: passwd
+    dburl: mydburlthing
+---
+spring:
+  profiles:
+    active: es
+
+guru:
+  jms:
+    user: newUser
